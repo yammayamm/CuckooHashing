@@ -2,7 +2,6 @@
 
 원리 : 
 hash table 두 개를 만들고 먼저 첫번째 hash function에 넣어서 item이 들어갈 key값을 구하고 hash table에 넣는다.
-
 만약 그 key에 다른 item이 들어가 있으면 두번째 hash function에 넣고 두 번째 hash table에 삽입한다.
 
 ## Cuckoo_Hashing.py 실행 결과
